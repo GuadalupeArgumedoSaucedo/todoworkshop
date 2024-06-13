@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="/css/newtodo.css">
 </head>
 <body>
+    <h1>Add New ToDo</h1>
+    <form id="todoForm">
+        <label for="users">Select User:</label>
+        <select id="users">
+            <!-- User options will be populated here -->
+        </select>
+        <label for="categories">Select Category:</label>
+        <select id="categories">
+            <!-- Category options will be populated here -->
+        </select>
+        <label for="priority">Priority:</label>
+        <select id="priority">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+        <label for="description">Description:</label>
+        <textarea id="description"></textarea>
+        <label for="deadline">Deadline:</label>
+        <input type="text" id="deadline" placeholder="YYYY-MM-DD">
+        <button type="submit">Add ToDo</button>
+    </form>
     
     <script src="/scripts/newtodo.js"></script>
 </body>
