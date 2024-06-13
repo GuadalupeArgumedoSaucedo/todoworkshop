@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/todo.css">
 </head>
 <body>
+    <h1>View ToDos</h1>
+    <label for="users">Select User:</label>
+    <select id="users">
+        <!-- User options will be populated here -->
+    </select>
+    <table id="todosTable">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Deadline</th>
+                <th>Priority</th>
+                <th>Completed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- ToDos will be populated here -->
+        </tbody>
+    </table>
     
+    <script src="/scripts/todo.js"></script>
 </body>
 </html>
