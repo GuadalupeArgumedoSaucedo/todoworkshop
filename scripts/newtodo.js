@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
     // Add an event listener to form's submit event
-    todoForm.addEventListener('submit', function (e) {
+    todoForm.addEventListener('submit', function (e) { // stops the form from submitting, reload the page and sends form data to server
         e.preventDefault(); // Prevent from submitting traditional way
 
         // Create an object to hold the form data
